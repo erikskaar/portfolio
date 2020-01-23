@@ -27,6 +27,10 @@ export default styled(Card)`
   padding: 2em;
   margin: 2em;
   font-size: 1.2em;
+  @media (max-width: 900px) {
+    width: 90%;
+    margin: 0.1em;
+  }
 
   & > div {
     width: 100%;

@@ -20,6 +20,9 @@ export default styled(Footer)`
   display: flex;
   justify-content: center;
   color: #eee;
+  @media (max-width: 900px) {
+    height: 20vh;
+  }
 
   & > div {
     width: 70%;

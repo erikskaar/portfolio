@@ -9,6 +9,12 @@ export default styled.div`
   color: #eee;
   padding: 2em;
   margin: 2em;
+  @media (max-width: 900px) {
+    min-width: 77%;
+    max-width: 75%;
+    margin: 0.1em;
+    justify-content: center;
+  }
 
   & > img {
     width: 30%;

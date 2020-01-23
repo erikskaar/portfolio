@@ -85,7 +85,7 @@ const App = () => {
             (window.location.href = "https://github.com/erikskaar/foodRoulette")
           }
           contentTitle="foodRoulette"
-          contentText="A random food combination generator using vanilla JS."
+          contentText="A random food combination generator using vanilla JS. Built because I can't decide what to have for dinner."
         />
         <Card
           image="/sites/zerg.png"

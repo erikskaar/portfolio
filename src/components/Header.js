@@ -10,14 +10,14 @@ const Header = ({ className, title }) => {
 };
 
 export default styled(Header)`
-  width: 80%;
+  width: 100%;
   margin: auto;
   color: #326676;
   background-color: #eee;
 
   & > h2 {
     margin: 0;
-    padding: 2em;
+    padding: 1em;
     text-transform: uppercase;
     letter-spacing: 2px;
   }

@@ -8,4 +8,9 @@ export default styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media (max-width: 900px) {
+    width: 100%;
+    margin: 0;
+    justify-content: center !important;
+  }
 `;

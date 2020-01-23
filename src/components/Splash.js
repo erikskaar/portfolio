@@ -40,6 +40,9 @@ export default styled(Splash)`
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
+    @media (max-width: 900px) {
+      padding-left: 1em;
+    }
   }
 
   & > div > p {
