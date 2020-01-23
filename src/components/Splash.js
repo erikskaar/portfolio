@@ -35,17 +35,20 @@ export default styled(Splash)`
 
   & > div {
     padding-top: 42vh;
-    color: #3a2827;
+    color: #333;
     animation-name: ${onLoad};
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     @media (max-width: 900px) {
       padding-left: 1em;
+      padding-right: 1em;
     }
   }
 
-  & > div > p {
+  & > div > p,
+  h1 {
     text-transform: none;
+    background-color: white;
   }
 `;
