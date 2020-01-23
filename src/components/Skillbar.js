@@ -25,7 +25,7 @@ to {
 export default styled(Skillbar)`
   height: 5vh;
   background-color: #eee;
-  width: 70%;
+  width: 90%;
   color: #eee;
   border-radius: 3px;
 

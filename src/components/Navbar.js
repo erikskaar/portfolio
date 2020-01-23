@@ -51,6 +51,7 @@ export default styled(Navbar)`
     float: right;
     @media (max-width: 900px) {
       float: none;
+      padding: 1em;
     }
   }
 
